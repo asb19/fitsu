@@ -1,0 +1,75 @@
+header .navbar .nav-link{
+    transition: .2s all ease-in;
+}
+header .navbar .nav-link:hover{
+    color:#f73434!important;
+}
+@media (max-width:921px){header .navbar .nav-link:hover{
+    
+    font-size: 1.1rem;
+}}
+.bd{
+    
+    margin:15%;
+}
+.h{
+    height: 100%;
+}
+.services{
+    background-image: url("/public/fitt/fit10.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity:1000;
+}
+.card{
+    background-color: transparent;
+    color: gray;
+    box-shadow: -11px -15px 12px -5px rgba(175,166,189,1);
+    transition: 0.4s all ease-in;
+overflow: hidden;
+    z-index: 2;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+/* .card-img-top{
+transition: 1s all ease-in-ou;
+overflow: hidden;
+}
+.card-img-top:hover{
+   transform: scale(1.1); 
+} */
+.card-title{
+    color: antiquewhite
+}
+.map-h{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+    color:rgb(121, 121, 209);
+    text-transform: uppercase;
+}
+.mybtn{
+    background-color: #4134f7!important;
+    border-color: #4134f7!important;
+    border-radius: 6px !important;
+
+}
+.pad{
+    margin-right: 500px !important;
+}
+.card-hist{
+    background-color: gray;
+}
+.btn-primary{
+    background-color: #4134f7!important;
+    border-color: #4134f7!important;
+}

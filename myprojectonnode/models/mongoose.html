@@ -1,0 +1,28 @@
+Routes 
+
+router.post('/enq', function(req, res) {
+  new Enquiry({name : req.body.name, email :
+     req.body.email, subject : req.body.subject, 
+     message: req.body.message}
+ 
+ 
+)
+  .save(function(err, Enquiry) {
+    console.log('enqs');
+    res.send(`<h1> Your Message has been saved<h1>`);
+  });
+});
+
+
+Models
+
+
+var mongoose = require('mongoose');
+var Schema   = mongoose.Schema;
+
+var Enquiry = new Schema(
+    {name : String, email : String, subject : String, message: String}
+   
+    );
+
+mongoose.model('enqs', Enquiry);
