@@ -79,8 +79,8 @@ app.get('/services',function(req,res){
    port: 465,
    secure: true, // true for 465, false for other ports
    auth: {
-       user: 'amirsohel171998@gmail.com', // generated ethereal user
-       pass: 'amir@1998'  // generated ethereal password
+       user: 'your gmail', // generated ethereal user
+       pass: 'your password'  // generated ethereal password
    },
    tls:{
      rejectUnauthorized:false
@@ -90,8 +90,8 @@ app.get('/services',function(req,res){
 
  // setup email data with unicode symbols
  let mailOptions = {
-     from: 'amirsohel171998@gmail.com', // sender address
-     to: 'amirsohel.as10@gmail.com', // list of receivers
+     from: 'your gmail', // sender address
+     to: 'receiver email', // list of receivers
      subject: 'New Enquiry', // Subject line
      text: 'From me', // plain text body
      html: output // html body
